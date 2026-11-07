@@ -8,10 +8,10 @@ import Compare from "./pages/Compare";
 
 function NotFound() {
   return (
-    <main className="min-h-screen bg-[#eee6d4] text-[#3f3e34]">
+    <main className="min-h-screen bg-[#E0D9C7] text-[#403A2F]">
       <SimpleHeader actionLabel="Volver al inicio" actionTo="/" />
       <section className="px-5 py-24 sm:px-8 lg:px-12">
-        <p className="eyebrow mb-5 text-[#a65338]">Error 404</p>
+        <p className="eyebrow mb-5 text-[#904F2F]">Error 404</p>
         <h1 className="font-serif text-[clamp(3.5rem,8vw,8rem)] leading-[0.85] tracking-[-0.05em]">No encontramos esta página.</h1>
         <Link className="primary-action mt-10" to="/">
           Volver al inicio

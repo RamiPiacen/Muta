@@ -16,7 +16,7 @@ npm run preview  # prueba la versión compilada
 
 ```
 src/
-  data/materials.ts      # los 13 materiales (única fuente de datos)
+  data/materials.ts      # los 12 materiales (única fuente de datos)
   pages/                 # Home, MaterialDetail, Compare
   components/            # Header, Footer, comparador (CompareContext), etc.
   index.css              # estilos del diseño de Figma
@@ -47,7 +47,6 @@ para que funcionen los links directos a cada ficha.
 
 ## Pendientes
 
-- Fotos de los materiales 08 al 14.
 - Versión tablet del diseño.
 - Confirmar el mail de contacto del pie de página (hoy `hola@muta.ar` es provisorio).
 - Revisar los datos marcados como "por verificar" con cada fabricante.

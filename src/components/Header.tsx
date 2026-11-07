@@ -5,7 +5,6 @@ import { useCompare } from "./CompareContext";
 
 const sectionLinks = [
   { label: "Materiales", hash: "#materiales" },
-  { label: "Manifiesto", hash: "#manifiesto" },
   { label: "Nosotros", hash: "#nosotros" },
 ];
 
@@ -15,7 +14,7 @@ export function Header() {
   const { ids } = useCompare();
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 flex h-[76px] items-center justify-between border-b border-[#4b4d35]/15 bg-[#eee6d4]/92 px-5 backdrop-blur-md sm:px-8 lg:px-12">
+    <header className="fixed inset-x-0 top-0 z-50 flex h-[76px] items-center justify-between border-b border-[#5A5142]/15 bg-[#E0D9C7]/92 px-5 backdrop-blur-md sm:px-8 lg:px-12">
       <Link to="/" aria-label="MUTA, inicio">
         <Brand />
       </Link>
@@ -28,9 +27,6 @@ export function Header() {
           Comparar
           <span className="comparison-count">{ids.length}</span>
         </NavLink>
-        <Link className="nav-link" to={{ pathname: "/", hash: "#manifiesto" }}>
-          Manifiesto
-        </Link>
         <Link className="nav-link" to={{ pathname: "/", hash: "#nosotros" }}>
           Nosotros
         </Link>
@@ -77,7 +73,7 @@ export function Header() {
 /** Cabecera simple para la ficha de material y el comparador */
 export function SimpleHeader({ actionLabel, actionTo }: { actionLabel: string; actionTo: string }) {
   return (
-    <header className="flex h-[76px] items-center justify-between border-b border-[#4b4d35]/15 px-5 sm:px-8 lg:px-12">
+    <header className="flex h-[76px] items-center justify-between border-b border-[#5A5142]/15 px-5 sm:px-8 lg:px-12">
       <Link to="/" aria-label="MUTA, inicio">
         <Brand />
       </Link>

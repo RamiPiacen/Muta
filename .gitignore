@@ -3,3 +3,6 @@ dist
 .vite
 *.log
 .DS_Store
+
+# Material en bruto (fotos y logos originales)
+_entrada/

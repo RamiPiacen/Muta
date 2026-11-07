@@ -3,8 +3,8 @@
 
 :root {
   font-family: "DM Sans", sans-serif;
-  color: #3f3e34;
-  background: #eee6d4;
+  color: #403A2F;
+  background: #E0D9C7;
   font-synthesis: none;
 }
 
@@ -88,8 +88,8 @@ button {
   height: 1.35rem;
   place-items: center;
   border-radius: 50%;
-  color: #eee6d4;
-  background: #a65338;
+  color: #E0D9C7;
+  background: #904F2F;
   font-size: 0.58rem;
   line-height: 1;
 }
@@ -111,8 +111,8 @@ button {
   left: 0;
   visibility: hidden;
   padding: 1rem 1.25rem 1.5rem;
-  background: #eee6d4;
-  box-shadow: 0 18px 30px rgb(45 43 33 / 12%);
+  background: #E0D9C7;
+  box-shadow: 0 18px 30px rgb(50 44 35 / 12%);
   opacity: 0;
   transform: translateY(-0.75rem);
   transition: 220ms ease;
@@ -127,7 +127,7 @@ button {
 .mobile-nav a {
   display: block;
   padding-block: 1rem;
-  border-bottom: 1px solid rgb(75 77 53 / 18%);
+  border-bottom: 1px solid rgb(90 81 66 / 18%);
   font-family: "Instrument Serif", Georgia, serif;
   font-size: 1.75rem;
 }
@@ -138,7 +138,7 @@ button {
   align-items: center;
   justify-content: space-between;
   padding-block: 1rem;
-  border-bottom: 1px solid rgb(75 77 53 / 18%);
+  border-bottom: 1px solid rgb(90 81 66 / 18%);
   font-family: "Instrument Serif", Georgia, serif;
   font-size: 1.75rem;
   text-align: left;
@@ -150,39 +150,39 @@ button {
   height: 2rem;
   place-items: center;
   border-radius: 50%;
-  color: #eee6d4;
-  background: #a65338;
+  color: #E0D9C7;
+  background: #904F2F;
   font-family: "DM Sans", sans-serif;
   font-size: 0.7rem;
 }
 
 .filter-panel {
   padding: 1.25rem;
-  border: 1px solid rgb(75 77 53 / 22%);
-  background-color: rgb(224 215 195 / 55%);
+  border: 1px solid rgb(90 81 66 / 22%);
+  background-color: rgb(192 168 134 / 22%);
 }
 
 .filter-search {
   width: 100%;
   height: 4rem;
   padding: 0 1.25rem 0 3.5rem;
-  border: 1px solid rgb(75 77 53 / 28%);
+  border: 1px solid rgb(90 81 66 / 28%);
   border-radius: 0;
   outline: none;
-  color: #3f3e34;
-  background: #eee6d4;
+  color: #403A2F;
+  background: #E0D9C7;
   font-family: "Instrument Serif", Georgia, serif;
   font-size: 1.35rem;
   transition: border-color 180ms ease, box-shadow 180ms ease;
 }
 
 .filter-search::placeholder {
-  color: rgb(63 62 52 / 42%);
+  color: rgb(64 58 47 / 42%);
 }
 
 .filter-search:focus {
-  border-color: #a65338;
-  box-shadow: inset 4px 0 0 #a65338;
+  border-color: #904F2F;
+  box-shadow: inset 4px 0 0 #904F2F;
 }
 
 .filter-field {
@@ -202,12 +202,12 @@ button {
   width: 100%;
   height: 3.5rem;
   padding: 0 3rem 0 1rem;
-  border: 1px solid rgb(75 77 53 / 28%);
+  border: 1px solid rgb(90 81 66 / 28%);
   border-radius: 0;
   outline: none;
-  color: #3f3e34;
-  background-color: #eee6d4;
-  background-image: linear-gradient(45deg, transparent 50%, #4b4d35 50%), linear-gradient(135deg, #4b4d35 50%, transparent 50%);
+  color: #403A2F;
+  background-color: #E0D9C7;
+  background-image: linear-gradient(45deg, transparent 50%, #5A5142 50%), linear-gradient(135deg, #5A5142 50%, transparent 50%);
   background-position: calc(100% - 20px) 50%, calc(100% - 15px) 50%;
   background-repeat: no-repeat;
   background-size: 5px 5px, 5px 5px;
@@ -217,7 +217,7 @@ button {
 }
 
 .filter-field select:focus {
-  border-color: #a65338;
+  border-color: #904F2F;
 }
 
 .reset-button {
@@ -226,7 +226,7 @@ button {
   gap: 0.45rem;
   padding-bottom: 0.2rem;
   border-bottom: 1px solid currentColor;
-  color: #a65338;
+  color: #904F2F;
   font-size: 0.65rem;
   font-weight: 700;
   letter-spacing: 0.13em;
@@ -246,7 +246,7 @@ button {
 }
 
 .material-card-link:focus-visible {
-  outline: 2px solid #a65338;
+  outline: 2px solid #904F2F;
   outline-offset: 5px;
 }
 
@@ -257,7 +257,7 @@ button {
   align-items: flex-end;
   justify-content: flex-start;
   padding: 1rem;
-  color: rgb(238 230 212 / 85%);
+  color: rgb(224 217 199 / 85%);
   font-size: 0.6rem;
   font-weight: 700;
   letter-spacing: 0.16em;
@@ -271,8 +271,8 @@ button {
   gap: 0.65rem;
   margin-top: 1.15rem;
   padding-top: 0.85rem;
-  border-top: 1px solid rgb(75 77 53 / 16%);
-  color: rgb(63 62 52 / 60%);
+  border-top: 1px solid rgb(90 81 66 / 16%);
+  color: rgb(64 58 47 / 60%);
   font-size: 0.62rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -282,7 +282,7 @@ button {
 
 .compare-toggle:hover,
 .compare-toggle.is-selected {
-  color: #a65338;
+  color: #904F2F;
 }
 
 .compare-toggle:disabled {
@@ -302,7 +302,7 @@ button {
 }
 
 .contour-panel {
-  color: rgb(238 230 212 / 72%);
+  color: rgb(224 217 199 / 72%);
 }
 
 .primary-action {
@@ -312,8 +312,8 @@ button {
   gap: 2rem;
   min-width: 12rem;
   padding: 0.95rem 1.1rem;
-  color: #eee6d4;
-  background: #5b5c40;
+  color: #E0D9C7;
+  background: #6F6542;
   font-size: 0.65rem;
   font-weight: 700;
   letter-spacing: 0.15em;
@@ -322,19 +322,19 @@ button {
 }
 
 .primary-action:hover {
-  background: #a65338;
+  background: #904F2F;
 }
 
 .comparison-empty {
   min-height: 33rem;
-  background-color: rgb(224 215 195 / 55%);
+  background-color: rgb(192 168 134 / 22%);
 }
 
 .comparison-table {
   display: grid;
   min-width: 720px;
-  border-top: 1px solid rgb(75 77 53 / 25%);
-  border-left: 1px solid rgb(75 77 53 / 25%);
+  border-top: 1px solid rgb(90 81 66 / 25%);
+  border-left: 1px solid rgb(90 81 66 / 25%);
 }
 
 .comparison-table.count-1 {
@@ -353,8 +353,8 @@ button {
 .comparison-material-head,
 .comparison-row-label,
 .comparison-value {
-  border-right: 1px solid rgb(75 77 53 / 25%);
-  border-bottom: 1px solid rgb(75 77 53 / 25%);
+  border-right: 1px solid rgb(90 81 66 / 25%);
+  border-bottom: 1px solid rgb(90 81 66 / 25%);
 }
 
 .comparison-label-head {
@@ -376,7 +376,7 @@ button {
 }
 
 .comparison-row-label {
-  color: rgb(63 62 52 / 58%);
+  color: rgb(64 58 47 / 58%);
   font-size: 0.63rem;
   font-weight: 700;
   letter-spacing: 0.15em;
@@ -390,7 +390,7 @@ button {
 }
 
 .comparison-value.is-pending {
-  color: #a65338;
+  color: #904F2F;
   font-family: "DM Sans", sans-serif;
   font-size: 0.65rem;
   font-weight: 700;
@@ -404,7 +404,7 @@ button {
   height: 1.7rem;
   flex: 0 0 auto;
   place-items: center;
-  border: 1px solid rgb(75 77 53 / 30%);
+  border: 1px solid rgb(90 81 66 / 30%);
   border-radius: 50%;
   font-size: 1rem;
   line-height: 1;
@@ -412,8 +412,8 @@ button {
 }
 
 .remove-compare:hover {
-  border-color: #a65338;
-  color: #a65338;
+  border-color: #904F2F;
+  color: #904F2F;
 }
 
 .detail-close {
@@ -431,7 +431,7 @@ button {
   width: 1.75rem;
   height: 1.75rem;
   place-items: center;
-  border: 1px solid rgb(75 77 53 / 35%);
+  border: 1px solid rgb(90 81 66 / 35%);
   border-radius: 50%;
   font-size: 1rem;
   font-weight: 400;
@@ -442,24 +442,24 @@ button {
   inset: 0;
   pointer-events: none;
   content: "";
-  background: linear-gradient(135deg, rgb(166 83 56 / 10%), transparent 55%);
+  background: linear-gradient(135deg, rgb(144 79 47 / 10%), transparent 55%);
   mix-blend-mode: multiply;
 }
 
 .spec-grid {
   display: grid;
-  border-top: 1px solid rgb(75 77 53 / 25%);
+  border-top: 1px solid rgb(90 81 66 / 25%);
 }
 
 .spec-grid > div {
   min-height: 8.5rem;
   padding: 1.25rem 0;
-  border-bottom: 1px solid rgb(75 77 53 / 25%);
+  border-bottom: 1px solid rgb(90 81 66 / 25%);
 }
 
 .spec-grid dt {
   margin-bottom: 1.3rem;
-  color: #a65338;
+  color: #904F2F;
   font-size: 0.6rem;
   font-weight: 700;
   letter-spacing: 0.17em;
@@ -473,7 +473,7 @@ button {
 }
 
 .process-list {
-  border-top: 1px solid rgb(75 77 53 / 25%);
+  border-top: 1px solid rgb(90 81 66 / 25%);
 }
 
 .process-list > div {
@@ -482,12 +482,12 @@ button {
   justify-content: space-between;
   gap: 1.5rem;
   padding: 1.25rem 0;
-  border-bottom: 1px solid rgb(75 77 53 / 25%);
+  border-bottom: 1px solid rgb(90 81 66 / 25%);
   font-size: 0.85rem;
 }
 
 .process-list strong {
-  color: #5b5c40;
+  color: #6F6542;
   font-size: 0.6rem;
   letter-spacing: 0.14em;
   text-align: right;
@@ -495,11 +495,11 @@ button {
 }
 
 .process-list strong.pending {
-  color: #a65338;
+  color: #904F2F;
 }
 
 .application-list {
-  border-top: 1px solid rgb(75 77 53 / 25%);
+  border-top: 1px solid rgb(90 81 66 / 25%);
 }
 
 .application-list > div {
@@ -508,11 +508,11 @@ button {
   align-items: center;
   gap: 1rem;
   padding: 1rem 0;
-  border-bottom: 1px solid rgb(75 77 53 / 25%);
+  border-bottom: 1px solid rgb(90 81 66 / 25%);
 }
 
 .application-list > div > span:first-child {
-  color: rgb(63 62 52 / 45%);
+  color: rgb(64 58 47 / 45%);
   font-size: 0.6rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -529,14 +529,14 @@ button {
   justify-content: space-between;
   gap: 2rem;
   padding: 0.85rem 0;
-  border-bottom: 1px solid rgb(238 230 212 / 35%);
+  border-bottom: 1px solid rgb(224 217 199 / 35%);
 }
 
 .gallery-thumb {
   display: block;
   width: 100%;
   overflow: hidden;
-  background: #d4c8af;
+  background: #C0A886;
 }
 
 .gallery-thumb img {
@@ -559,7 +559,7 @@ button {
   align-items: center;
   justify-content: center;
   padding: 1.5rem;
-  background: rgb(35 34 26 / 92%);
+  background: rgb(38 33 26 / 92%);
 }
 
 .lightbox img {
@@ -574,15 +574,15 @@ button {
   width: 2.75rem;
   height: 2.75rem;
   place-items: center;
-  border: 1px solid rgb(238 230 212 / 45%);
+  border: 1px solid rgb(224 217 199 / 45%);
   border-radius: 50%;
-  color: #eee6d4;
+  color: #E0D9C7;
   font-size: 1.25rem;
   line-height: 1;
 }
 
 .lightbox-button:hover {
-  background: rgb(238 230 212 / 12%);
+  background: rgb(224 217 199 / 12%);
 }
 
 @media (min-width: 640px) {
@@ -595,7 +595,7 @@ button {
   }
 
   .spec-grid > div:nth-child(odd) {
-    border-right: 1px solid rgb(75 77 53 / 25%);
+    border-right: 1px solid rgb(90 81 66 / 25%);
   }
 
   .spec-grid > div:nth-child(even) {
@@ -612,7 +612,7 @@ button {
   .spec-grid > div:nth-child(even) {
     padding-right: 2rem;
     padding-left: 2rem;
-    border-right: 1px solid rgb(75 77 53 / 25%);
+    border-right: 1px solid rgb(90 81 66 / 25%);
   }
 
   .spec-grid > div:nth-child(3n + 1) {
