@@ -50,7 +50,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#3A3429]/72 via-[#4A4234]/35 to-transparent" />
           <div className="absolute inset-x-0 bottom-0 z-10 p-6 text-[#F1ECDD] sm:p-10 lg:p-12">
             <p className="eyebrow mb-5">Materiales sustentables para diseño</p>
-            <h1 className="max-w-[790px] font-serif text-[clamp(4.4rem,9vw,9.5rem)] leading-[0.9] tracking-[-0.055em]">
+            <h1 className="max-w-[790px] font-serif text-[clamp(4.4rem,9vw,9.5rem)] leading-[1] tracking-[-0.055em]">
               Explorá.
               <br />
               Compará.
