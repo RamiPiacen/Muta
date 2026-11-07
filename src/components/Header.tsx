@@ -3,6 +3,9 @@ import { Link, NavLink } from "react-router-dom";
 import { Arrow, Brand } from "./Icons";
 import { useCompare } from "./CompareContext";
 
+/** WhatsApp de contacto: +54 9 3513 86-8265 */
+const WHATSAPP_URL = "https://wa.me/5493513868265";
+
 const sectionLinks = [
   { label: "Materiales", hash: "#materiales" },
   { label: "Nosotros", hash: "#nosotros" },
@@ -32,12 +35,14 @@ export function Header() {
         </Link>
       </nav>
 
-      <Link
+      <a
         className="hidden items-center gap-2 border-b border-current pb-1 text-[11px] font-bold uppercase tracking-[0.16em] transition-opacity hover:opacity-60 md:flex"
-        to={{ pathname: "/", hash: "#contacto" }}
+        href={WHATSAPP_URL}
+        rel="noopener noreferrer"
+        target="_blank"
       >
         Contacto <Arrow diagonal />
-      </Link>
+      </a>
 
       <button
         aria-expanded={menuOpen}
@@ -59,9 +64,9 @@ export function Header() {
             {label}
           </Link>
         ))}
-        <Link onClick={() => setMenuOpen(false)} to={{ pathname: "/", hash: "#contacto" }}>
+        <a href={WHATSAPP_URL} onClick={() => setMenuOpen(false)} rel="noopener noreferrer" target="_blank">
           Contacto
-        </Link>
+        </a>
         <Link className="mobile-compare" onClick={() => setMenuOpen(false)} to="/comparar">
           Comparar materiales <span>{ids.length}</span>
         </Link>

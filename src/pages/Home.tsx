@@ -231,7 +231,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="texture flex flex-col justify-center px-6 py-20 sm:px-10 lg:px-16" id="nosotros">
+        <div className="texture flex flex-col justify-center px-6 py-20 sm:px-10 lg:px-16">
           <p className="eyebrow mb-8 text-[#C0A886]">Nuestra mirada</p>
           <blockquote className="font-serif text-[clamp(3.2rem,6vw,6.8rem)] leading-[0.88] tracking-[-0.045em]">
             “Diseñar también es elegir qué mundo <em>hacemos posible.</em>”
@@ -240,6 +240,56 @@ export default function Home() {
             <p>MUTA nace para acercar información clara, sensible y accionable sobre nuevos materiales.</p>
             <p>Conectamos industria, investigación y diseño para acelerar decisiones más conscientes.</p>
           </div>
+        </div>
+      </section>
+
+      <section className="scroll-mt-[76px] px-5 py-20 sm:px-8 lg:px-12 lg:py-28" id="nosotros">
+        <div className="grid gap-12 lg:grid-cols-[.9fr_1.1fr] lg:gap-20">
+          <div>
+            <p className="eyebrow mb-5 text-[#904F2F]">Nosotros / 03</p>
+            <h2 className="font-serif text-[clamp(3.6rem,7vw,7.2rem)] leading-[0.9] tracking-[-0.05em]">
+              Quiénes
+              <br />
+              <em>somos.</em>
+            </h2>
+          </div>
+          <div className="flex flex-col justify-end gap-6 text-base leading-[1.9] text-[#403A2F]/75">
+            {/* TEXTO DE EJEMPLO: reemplazar por el texto definitivo */}
+            <p>
+              MUTA es una materialoteca digital que reúne materiales sustentables producidos en Argentina para que quienes diseñan puedan conocerlos, compararlos y
+              elegirlos con información clara.
+            </p>
+            <p>
+              Relevamos proveedores, biomateriales y desarrollos locales, y ordenamos sus datos técnicos en un solo lugar: formatos, espesores, procesos y formas de
+              contacto. Así, la búsqueda de un material alternativo deja de ser una odisea y se convierte en el primer paso del proyecto.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-16 grid border-t border-[#5A5142]/25 sm:grid-cols-3">
+          {[
+            {
+              number: "01",
+              title: "Qué hacemos",
+              text: "Reunimos materiales sustentables y los presentamos con fichas técnicas claras y fotos reales de cada muestra.",
+            },
+            {
+              number: "02",
+              title: "Para quién",
+              text: "Para diseñadoras y diseñadores, estudios y marcas que buscan alternativas a los materiales convencionales.",
+            },
+            {
+              number: "03",
+              title: "Cómo trabajamos",
+              text: "Verificamos cada dato con el proveedor. Lo que todavía no está confirmado queda marcado como “por verificar”.",
+            },
+          ].map((item) => (
+            <div className="border-b border-[#5A5142]/25 py-8 sm:border-b-0 sm:border-r sm:px-8 sm:first:pl-0 sm:last:border-r-0" key={item.number}>
+              <p className="eyebrow mb-4 text-[#904F2F]">{item.number}</p>
+              <h3 className="font-serif text-3xl tracking-[-0.025em]">{item.title}</h3>
+              <p className="mt-3 text-sm leading-[1.8] text-[#403A2F]/65">{item.text}</p>
+            </div>
+          ))}
         </div>
       </section>
 
