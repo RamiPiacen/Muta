@@ -227,7 +227,7 @@ export default function Home() {
               <br />
               transformar
             </div>
-           
+           <p>.</p>
           </div>
         </div>
 
