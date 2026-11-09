@@ -227,7 +227,7 @@ export default function Home() {
               <br />
               transformar
             </div>
-            <p className="max-w-[260px] text-xs leading-[1.8] text-[#E0D9C7]/65">La materia no es el final del proceso. Es el lugar donde empieza una nueva pregunta.</p>
+           
           </div>
         </div>
 
@@ -254,14 +254,14 @@ export default function Home() {
             </h2>
           </div>
           <div className="flex flex-col justify-end gap-6 text-base leading-[1.9] text-[#403A2F]/75">
-            {/* TEXTO DE EJEMPLO: reemplazar por el texto definitivo */}
             <p>
-              MUTA es una materialoteca digital que reúne materiales sustentables producidos en Argentina para que quienes diseñan puedan conocerlos, compararlos y
-              elegirlos con información clara.
+              MUTA nació de una inquietud que surgió mientras estudiaba Diseño Gráfico: ¿cómo podemos diseñar de manera más consciente si no conocemos realmente los
+              materiales que elegimos? Lo que comenzó como una búsqueda de alternativas sustentables terminó revelando un problema mucho más grande: la información
+              existía, pero encontrarla, entenderla y compararla no siempre era sencillo.
             </p>
             <p>
-              Relevamos proveedores, biomateriales y desarrollos locales, y ordenamos sus datos técnicos en un solo lugar: formatos, espesores, procesos y formas de
-              contacto. Así, la búsqueda de un material alternativo deja de ser una odisea y se convierte en el primer paso del proyecto.
+              Así empezó a tomar forma MUTA. Un proyecto que busca acercar nuevas posibilidades a quienes diseñan, despertando la curiosidad por materiales que muchas
+              veces desconocemos. Porque creemos que diseñar no es solamente dar forma a una idea, sino también pensar en aquello con lo que la hacemos realidad.
             </p>
           </div>
         </div>
@@ -270,18 +270,18 @@ export default function Home() {
           {[
             {
               number: "01",
-              title: "Qué hacemos",
-              text: "Reunimos materiales sustentables y los presentamos con fichas técnicas claras y fotos reales de cada muestra.",
+              title: "Qué nos mueve",
+              text: "La curiosidad por descubrir nuevas posibilidades y demostrar que cada material puede ser el comienzo de una forma diferente de diseñar.",
             },
             {
               number: "02",
               title: "Para quién",
-              text: "Para diseñadoras y diseñadores, estudios y marcas que buscan alternativas a los materiales convencionales.",
+              text: "Para quienes crean, experimentan, se hacen preguntas y buscan incorporar decisiones más conscientes a sus proyectos.",
             },
             {
               number: "03",
-              title: "Cómo trabajamos",
-              text: "Verificamos cada dato con el proveedor. Lo que todavía no está confirmado queda marcado como “por verificar”.",
+              title: "Cómo lo hacemos",
+              text: "Exploramos materiales y proyectos, reunimos información técnica y la hacemos accesible para facilitar elecciones más informadas.",
             },
           ].map((item) => (
             <div className="border-b border-[#5A5142]/25 py-8 sm:border-b-0 sm:border-r sm:px-8 sm:first:pl-0 sm:last:border-r-0" key={item.number}>

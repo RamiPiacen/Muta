@@ -8,6 +8,7 @@ const WHATSAPP_URL = "https://wa.me/5493513868265";
 
 const sectionLinks = [
   { label: "Materiales", hash: "#materiales" },
+  { label: "Manifiesto", hash: "#manifiesto" },
   { label: "Nosotros", hash: "#nosotros" },
 ];
 
@@ -30,6 +31,9 @@ export function Header() {
           Comparar
           <span className="comparison-count">{ids.length}</span>
         </NavLink>
+        <Link className="nav-link" to={{ pathname: "/", hash: "#manifiesto" }}>
+          Manifiesto
+        </Link>
         <Link className="nav-link" to={{ pathname: "/", hash: "#nosotros" }}>
           Nosotros
         </Link>
